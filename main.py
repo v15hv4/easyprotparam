@@ -35,7 +35,7 @@ def compute_protparams(sequence):
 
     # TODO: better exception handling
     except Exception as e: 
-        print("Failed for sequence: ", sequence_file)
+        print("Failed for sequence: ", sequence)
 
         results = {
             "molecular_weight": 0.0,
